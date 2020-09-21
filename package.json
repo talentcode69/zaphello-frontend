@@ -1,0 +1,74 @@
+{
+  "name": "zaphello-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "1.3.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/pro-duotone-svg-icons": "^5.14.0",
+    "@fortawesome/pro-light-svg-icons": "^5.14.0",
+    "@fortawesome/pro-regular-svg-icons": "^5.14.0",
+    "@fortawesome/pro-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/pickers": "^3.2.10",
+    "@reduxjs/toolkit": "^1.4.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^10.4.7",
+    "@testing-library/user-event": "^7.1.2",
+    "date-fns": "^2.15.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-intl": "^5.4.4",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/preset-create-react-app": "^3.1.4",
+    "@storybook/react": "^5.3.19",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.1",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:js": "eslint ./src",
+    "lint:css": "stylelint './src/**/*.js'",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

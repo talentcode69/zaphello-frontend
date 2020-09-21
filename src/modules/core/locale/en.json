@@ -1,0 +1,11 @@
+{
+  "core.tickets": "tickets",
+  "core.users": "users",
+  "core.analytics": "analytics",
+  "core.integrations": "integrations",
+  "core.knowledgebase": "knowledgebase",
+  "core.settings": "settings",
+  "core.zap.mode": "zap mode",
+  "core.help": "help",
+  "core.notifications": "notifications"
+}

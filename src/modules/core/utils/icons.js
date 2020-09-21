@@ -1,0 +1,110 @@
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+// light icons
+import {
+  faTicketAlt as falTicketAlt,
+  faUsers as falUsers,
+  faChartBar as falChartBar,
+  faPuzzlePiece as falPuzzlePiece,
+  faBook as falBook,
+  faCog as falCog,
+  faQuestionCircle as falQuestionCircle,
+  faBell as falBell,
+  faInboxIn as falInboxIn,
+  faInbox as falInbox,
+  faShoppingCart as falShoppingCart,
+  faPlus as falPlus,
+  faEllipsisH as falEllipsisH,
+  faSearch as falSearch,
+  faTimes as falTimes,
+  faArrowLeft as falArrowLeft,
+  faMehBlank as falMehBlank,
+  faSmile as falSmile,
+  faMeh as falMeh,
+  faFrown as falFrown,
+} from '@fortawesome/pro-light-svg-icons'
+
+// solid icons
+import {
+  faBolt as fasBolt,
+  faTicketAlt as fasTicketAlt,
+  faUsers as fasUsers,
+  faChartBar as fasChartBar,
+  faPuzzlePiece as fasPuzzlePiece,
+  faBook as fasBook,
+  faCog as fasCog,
+  faSquare as fasSquare,
+  faCheckSquare as fasCheckSquare,
+  faCheckCircle as fasCheckCircle,
+  faCaretDown as fasCaretDown,
+  faExclamationTriangle as fasExclamationTriangle,
+  faBars as fasBars,
+} from '@fortawesome/pro-solid-svg-icons'
+
+// regular icons
+import {
+  faPlus as farPlus,
+  faChevronLeft as farChevronLeft,
+  faChevronRight as farChevronRight,
+  faChevronDown as farChevronDown,
+  faExclamationTriangle as farExclamationTriangle,
+  faBullseyeArrow as farBullseyeArrow,
+  faCalendarDay as farCalendarDay,
+  faSquare as farSquare,
+  faSlidersHSquare as farSlidersHSquare,
+  faArrowLeft as farArrowLeft,
+} from '@fortawesome/pro-regular-svg-icons'
+
+// brands
+import {
+  faFacebookSquare,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons'
+
+library.add(
+  falTicketAlt,
+  fasTicketAlt,
+  falUsers,
+  fasUsers,
+  falChartBar,
+  fasChartBar,
+  falPuzzlePiece,
+  fasPuzzlePiece,
+  falBook,
+  fasBook,
+  falCog,
+  fasCog,
+  falQuestionCircle,
+  falBell,
+  fasBolt,
+  falInboxIn,
+  falInbox,
+  falShoppingCart,
+  falPlus,
+  farPlus,
+  faFacebookSquare,
+  faInstagram,
+  falEllipsisH,
+  falSearch,
+  farChevronLeft,
+  farChevronRight,
+  farChevronDown,
+  fasSquare,
+  farSquare,
+  fasCheckSquare,
+  fasCheckCircle,
+  fasCaretDown,
+  falTimes,
+  falArrowLeft,
+  farArrowLeft,
+  falMehBlank,
+  falSmile,
+  falMeh,
+  falFrown,
+  fasExclamationTriangle,
+  farExclamationTriangle,
+  farBullseyeArrow,
+  farCalendarDay,
+  fasBars,
+  farSlidersHSquare
+)
